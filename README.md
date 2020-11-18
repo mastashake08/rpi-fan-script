@@ -4,7 +4,7 @@
 
 # Raspberry Pi Fan Script
 
-Simple python script to turn on the fan when the internal temperature reaches above a certain threshold (currently 65 degrees)
+Simple python script to turn on the fan when the internal temperature reaches above a certain threshold
 
 ## Table Of Contents
 
@@ -33,7 +33,7 @@ Use the package manager [npm](https://npmjs.org) to install the dependencies. Th
 ## Usage
 
 ```bash
-python fan.py
+python fan.py <GPIO_PIN> <BASE_TEMPERATURE>
 ```
 I suggest you make this script run on startup.
 
